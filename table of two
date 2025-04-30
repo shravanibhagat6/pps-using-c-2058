@@ -5,7 +5,7 @@ int main()
   for(i=1;i<=10;i++)
   {
       table=num*i;
-     printf("%d",table);
+     printf("\n %d",table);
 
   }
 return 0;
