@@ -1,0 +1,22 @@
+#include<stdio.h>
+int main()
+{
+ int a,b,c;
+  printf("Enter num 1 \t");
+  scanf("%d",&a);
+
+  printf("Enter num 2 \t");
+  scanf("%d",&b);
+  
+  printf("Initially the vale of a is %d \t ",a);
+  printf("\n Initially the vale of b is %d \t ",b);
+  
+  b=a+b;
+  a=b-a;
+  b=b-a;
+
+  printf("Interchanged value of a is %d \t",a);
+  printf("Interchanged value of b is %d \t",b);
+  
+  return 0;
+}
